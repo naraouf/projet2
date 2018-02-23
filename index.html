@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name=”description” content=”Reseau social de communication et de partage de contenu” />
+  <meta name=”keywords” content=”facebook, chat, tchatche, appeler, call, rencontre, amis, publication, amour, amis, visioconference,
+    groupe, mur ” />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://www.facebook.com/rsrc.php/yl/r/H3nktOa7ZMg.ico">
+</link>
+  <title>Facebook</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <header id="entete">
+    <h1 id="logo">
+      <a href="https://www.facebook.com/">
+        <img class="logo" class="texte_logo" src="images/FB_logo.png" title="Accéder à la page d’accueil" alt="Facebook">
+
+      </a>
+    </h1>
+    <nav>
+      <div id="searchbar">
+        <label class="text">Adresse e-mail ou mobile&nbsp;&nbsp;&nbsp;</label>
+        <label class="text">Mot de passe</label>
+
+        <form action="">
+          <input class="champ" type="text" placeholder="pseudo" />
+          <input class="champ" type="password" placeholder="password" />
+          <input class="bouton" type="button" value="Connexion" />
+        </form>
+        <a id="info" href="">Informations de compte oubliées ?</a>
+
+      </div>
+    </nav>
+
+
+
+  </header>
+  <nav>
+    <div id="corps">
+      <div id=cote_gauche>
+
+
+        <a id="slogan">Avec Facebook, partagez et restez en contact avec votre entourage.</a>
+        <img class="fond" src="images/GwFs3_KxNjS.png" alt="" />
+
+
+
+      </div>
+
+      <div id="cote_droit">
+        <h1>Inscription</h1>
+        <a id="soustitre">C’est gratuit (et ça le restera toujours)</a>
+        <br>
+
+        <form id "formulaire">
+          <div id="identifiant">
+            <input id="ide1" class="identifiant" type="text" placeholder="Prénom" />
+            <input id="ide2" class="identifiant" type="text" placeholder="Nom de famille" />
+          </div>
+          <div id="identifiant2">
+            <input id="ide3" class="identifiant" type="text" placeholder="Numero de mobile ou e-maill" />
+            <input id="ide4" class="identifiant" type="text" placeholder="Nouveau mot de passe" />
+          </div>
+
+          <div id="naissance">
+            <label id="texte02" for="form">Date de naissance </label>
+            <br>
+            <div id="scroll">
+              <form>
+                <SELECT class="date" name="Jour" size="1">
+                  <OPTION>01</OPTION>
+                  <OPTION>02</OPTION>
+                  <OPTION>03</OPTION>
+                  <OPTION>04</OPTION>
+                  <OPTION>06</OPTION>
+                  <OPTION>07</OPTION>
+                  <OPTION>08</OPTION>
+                  <OPTION>09</OPTION>
+                  <OPTION>10</OPTION>
+                  <OPTION>11</OPTION>
+                  <OPTION>12</OPTION>
+                  <OPTION>13</OPTION>
+                  <OPTION>14</OPTION>
+                  <OPTION>15</OPTION>
+                  <OPTION>16</OPTION>
+                  <OPTION>17</OPTION>
+                  <OPTION>18</OPTION>
+                  <OPTION>19</OPTION>
+                  <OPTION>20</OPTION>
+                  <OPTION>21</OPTION>
+                  <OPTION>22</OPTION>
+                  <OPTION>23</OPTION>
+                  <OPTION>24</OPTION>
+                  <OPTION>25</OPTION>
+                  <OPTION>26</OPTION>
+                  <OPTION>27</OPTION>
+                  <OPTION>28</OPTION>
+                  <OPTION>29</OPTION>
+                  <OPTION>30</OPTION>
+                  <OPTION>31</OPTION>
+                </SELECT>
+                <SELECT class="date" name="Mois" size="1">
+                  <OPTION>01</OPTION>
+                  <OPTION>02</OPTION>
+                  <OPTION>03</OPTION>
+                  <OPTION>04</OPTION>
+                  <OPTION>06</OPTION>
+                  <OPTION>07</OPTION>
+                  <OPTION>08</OPTION>
+                  <OPTION>09</OPTION>
+                  <OPTION>10</OPTION>
+                  <OPTION>11</OPTION>
+                  <OPTION>12</OPTION>
+
+                </SELECT>
+                <SELECT class="date" name="Annee" size="1">
+                  <OPTION>1900</OPTION>
+                  <OPTION>...</OPTION>
+                  <OPTION>1980</OPTION>
+                  <OPTION>1990</OPTION>
+                  <OPTION>2000</OPTION>
+                  <OPTION>2010</OPTION>
+                  <OPTION>2011</OPTION>
+                  <OPTION>2012</OPTION>
+                  <OPTION>2013</OPTION>
+                  <OPTION>2014</OPTION>
+                  <OPTION>2015</OPTION>
+
+                </SELECT>
+              </FORM>
+              <a class="info" href="">Pourquoi indiquer ma date de naissance?</a>
+
+            </div>
+          </div>
+          <div id="sexe">
+            <input id="checkBox1" name="sexe" type="radio" value "femme" onClick="verifyCheckBoxes(1);" >
+            <label class="sexe">Femme</label>
+            <input id="checkBox2" name="sexe" type="radio" value "homme" onClick="verifyCheckBoxes(2);" >
+            <label class="sexe">Homme </label>
+
+            <br/>
+
+            <p id="conditions">En cliquant sur Créer un compte, vous acceptez nos
+              <a class="lien" href="">Conditions</a> et indiquez que vous avez lu notre
+              <a class="lien" href="">Politique d’utilisation des données</a>, y compris notre
+              <a class="lien" href="">Utilisation des cookies</a>. Vous pourrez recevoir des notifications par texto de la part de Facebook et pouvez
+              vous désabonner à tout moment.
+
+
+            </p>
+            <br>
+            <input href="/pages/create/?ref_type=registration_form" id="inscript" type="submit" value="Créer un compte" />
+
+            <div id="inffos">
+              <a class="infffos" href="/pages/create/?ref_type=registration_form">Créer une Page</a>
+              <a class="inffos">pour une célébrité, un groupe ou une entreprise.</a>
+            </div>
+
+
+
+          </div>
+
+
+        </form>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+  </nav>
+
+
+  <footer>
+    <div id="footer" style="display: block;">
+      <nav>
+
+        <ul id="lang">
+          <li>
+            <a class="langue" href="#">Français (France)&nbsp</a>
+          </li>
+          <li>
+            <a class="langue" href="#">English (US)&nbsp</a>
+          </li>
+          <li>
+            <a class="langue" href="#">Español&nbsp</a>
+          </li>
+          <li>
+            <a class="langue" href="#">Türkçe&nbsp</a>
+          </li>
+          <li>
+            <a class="langue" href="#">Português (Portugal)&nbsp</a>
+          </li>
+          <li>
+            <a class="langue" href="#">العربية&nbsp</a>
+          </li>
+          <li>
+            <a class="langue" href="#">Deutschaliano&nbsp</a>
+          </li>
+          <li>
+            <a class="langue" href="#">हिन्दी&nbsp</a>
+          </li>
+          <li>
+            <a class="langue" href="#">中文(简体)&nbsp</a>
+          </li>
+          <li>
+            <a class="langue" href="#">日本語&nbsp&nbsp</a>
+          </li>
+          <input id="boutonP" type="button" value="+" />
+        </ul>
+      </nav>
+
+      <nav>
+        <div id="foot2">
+
+          <ul class="colonne" id="colonne1">
+
+            <li class="liste">
+              <a class="langue" href="">Inscription</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Célébrités</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Développeurs</a>
+            </li>
+
+          </ul>
+          <ul class="colonne" id="colonne2">
+
+            <li class="liste">
+              <a class="langue" href="">Connexion</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Marketplace</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Emplois</a>
+            </li>
+
+          </ul>
+          <ul class="colonne" id="colonne2">
+
+            <li class="liste">
+              <a class="langue" href="">Messenger</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Groupes</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Confidentialité</a>
+            </li>
+
+          </ul>
+          <ul class="colonne" id="colonne3">
+
+            <li class="liste">
+              <a class="langue" href="">Facebook Lite </a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Recettes</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Cookies</a>
+            </li>
+
+          </ul>
+          <ul class="colonne" id="colonne4">
+
+            <li class="liste">
+              <a class="langue" href="">Mobile</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Sport</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Choisir sa pub</a>
+            </li>
+
+          </ul>
+          <ul href="" class="colonne" id="colonne5">
+
+            <li class="liste">
+              <a class="langue" href="">Retrouver des amis</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Look</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Conditions d’utilisation</a>
+            </li>
+
+          </ul>
+          <ul class="colonne" id="colonne6">
+
+            <li class="liste">
+              <a class="langue" href="">Personnes</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Moments</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Aide</a>
+            </li>
+
+          </ul>
+          <ul class="colonne" id="colonne7">
+
+            <li class="liste">
+              <a class="langue" href="">Pages</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Instagram </a>
+            </li>
+
+
+          </ul>
+          <ul class="colonne" id="colonne8">
+
+            <li class="liste">
+              <a class="langue" href="">Lieux</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">À propos</a>
+            </li>
+
+
+          </ul>
+          <ul class="colonne" id="colonne9">
+
+            <li class="liste">
+              <a class="langue" href="">Jeux</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Créer une publicité</a>
+            </li>
+
+
+          </ul>
+          <ul class="colonne" id="colonne10">
+
+            <li class="liste">
+              <a class="langue" href="">Lieux</a>
+            </li>
+            <li class="liste">
+              <a class="langue" href="">Créer une Page</a>
+            </li>
+
+
+          </ul>
+        </div>
+        <div id="copy">
+          <span class="copyright"> Facebook © 2017</span>
+        </div>
+      </nav>
+
+    </div>
+
+
+
+    </div>
+  </footer>
+</body>
+
+</html>
+
+
+
